@@ -54,7 +54,7 @@ open class DAOFloatingPanelViewController: UIViewController {
   
   private var topMarginToEdge: CGFloat {
     if #available(iOS 13.0, *) {
-      return (view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0) +
+      return (view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? UIApplication.shared.statusBarFrame.height) +
         (self.navigationController?.navigationBar.frame.height ?? 0.0)
     } else {
       return UIApplication.shared.statusBarFrame.height + (navigationController?.navigationBar.frame.height ?? 0)

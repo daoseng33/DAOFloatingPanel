@@ -22,7 +22,7 @@ pod 'DAOFloatingPanel'
 
 ## Author
 
-ray, daoseng33@gmail.com
+DAO, daoseng33@gmail.com
 
 ## License
 
