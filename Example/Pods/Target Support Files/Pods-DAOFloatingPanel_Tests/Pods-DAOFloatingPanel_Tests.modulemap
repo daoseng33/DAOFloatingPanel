@@ -1,0 +1,6 @@
+framework module Pods_DAOFloatingPanel_Tests {
+  umbrella header "Pods-DAOFloatingPanel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
