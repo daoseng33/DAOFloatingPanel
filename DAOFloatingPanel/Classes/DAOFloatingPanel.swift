@@ -2,8 +2,8 @@
 //  DAOFloatingPanel.swift
 //  DAOFloatingPanel
 //
-//  Created by Ray Dan on 2021/1/21.
-//  Copyright © 2021 Shang-en Info. Co.,Ltd. All rights reserved.
+//  Created by DAO on 2021/1/21.
+//  Copyright © 2021 LikeABossApp. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  DAOFloatingPanel
 //
-//  Created by ray on 01/21/2021.
-//  Copyright (c) 2021 ray. All rights reserved.
+//  Created by DAO on 01/21/2021.
+//  Copyright (c) 2021 LikeABossApp. All rights reserved.
 //
 
 import UIKit
@@ -43,7 +43,7 @@ extension ViewController: FloatingPanelDelegate {
     switch panel {
     case normalPanel:
       label.text = "normal"
-    
+      
     case extendablePanel:
       label.text = "extendable"
       
