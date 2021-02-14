@@ -17,6 +17,7 @@
 		14ECE81218F5F5C9BEF00819A7C078EC /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F4123831772C0FEEBA7A82BBA31B6 /* Closures.swift */; };
 		192A3F8BEC1A99FD8712D3E09724D72C /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47ACC5B8D31AD74D5BDD185A24EB83 /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1A8DF79F5EF3D69864A84173E7C9810E /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB5021AED5A79789DB0F55EBB7D8BF9 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD5C6BB25D7814700F2C4DB /* DAOPanelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5C6BA25D7814700F2C4DB /* DAOPanelHeader.swift */; };
 		1FF4173BAE11952B68FF24987B040093 /* DAOFloatingPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE68C8BAF5CAAC0EA7D73C85785BC55A /* DAOFloatingPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		209F98BB7B328893FB64BA0393B4BD57 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174D27705CD0D5B6F171827327860 /* HooksPhase.swift */; };
 		22B5B4ED0824E7BAF2091AAD6238A73F /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB748969F898E8B2D944D91048B9E7 /* QuickSpecBase.m */; };
@@ -171,6 +172,7 @@
 		1806132AB751DBCAEF39424E99FF7E48 /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
 		1A4C13D3E16F5CC104B4F9E6E0509CE1 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		1B5DE0BACD9C50DBF2BF9B7132E00C2C /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
+		1CD5C6BA25D7814700F2C4DB /* DAOPanelHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DAOPanelHeader.swift; path = DAOFloatingPanel/Classes/DAOPanelHeader.swift; sourceTree = "<group>"; };
 		1DB1CB92EE7BAAD3F0A4E9028FC41E19 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		22ABEEDFE785CFD93BACDA971926BF41 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		231889EA66F2EF212C06F43E04D61B86 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
@@ -410,6 +412,7 @@
 			isa = PBXGroup;
 			children = (
 				89AEFC0C26E77D1542B3B9DE4594E152 /* DAOFloatingPanel.swift */,
+				1CD5C6BA25D7814700F2C4DB /* DAOPanelHeader.swift */,
 				694001D37BF9DC7C9B168C791132EC2C /* Pod */,
 				BF3FAA26899A2FE8905CBC33021DBEAB /* Support Files */,
 			);
@@ -872,6 +875,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD5C6BB25D7814700F2C4DB /* DAOPanelHeader.swift in Sources */,
 				7B99AD2609569234CEA0FDB4A08B4A88 /* DAOFloatingPanel-dummy.m in Sources */,
 				609AC5074027ABC03FBFFE2280E12EFA /* DAOFloatingPanel.swift in Sources */,
 			);

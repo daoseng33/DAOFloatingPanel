@@ -11,7 +11,7 @@ import DAOFloatingPanel
 
 class ViewController: UIViewController {
   lazy var normalPanel: DAOFloatingPanelViewController = {
-    let panel = DAOFloatingPanelViewController(type: .normal)
+    let panel = DAOFloatingPanelViewController(type: .normal, headerTitle: "title")
     panel.delegate = self
     
     return panel
