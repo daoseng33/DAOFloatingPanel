@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DAOFloatingPanel'
-  s.version          = '0.3.0'
-  s.summary          = 'A Facebook like floating panel.'
+  s.version          = '0.4.0'
+  s.summary          = 'A light weight floating panel ui-component.'
   s.swift_versions   = '5.0'
 
 # This description is used to generate tags and improve search results.
